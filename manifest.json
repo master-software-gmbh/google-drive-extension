@@ -1,6 +1,6 @@
 {
-  "name": "Google Drive Move Confirmation Blocker",
-  "description": "This extension autoconfirms the confirmation dialog when moving a shared file or folder",
+  "name": "Auto-Confirm Google Drive Move Popup",
+  "description": "This extension auto-confirms the popup when moving a shared file or folder in Google Drive",
   "version": "0.1",
   "manifest_version": 3,
   "icons": {
