@@ -1,23 +1,17 @@
 {
-  "name": "Auto-Confirm Google Drive Move Popup",
-  "description": "This extension auto-confirms the popup when moving a shared file or folder in Google Drive",
-  "version": "0.2",
+  "name": "Auto-Confirm Google Drive Popups",
+  "description": "This extension auto-confirms popups when moving a shared file or folder in Google Drive or creating new files in a shared folder.",
+  "version": "0.3",
   "manifest_version": 3,
   "icons": {
     "128": "icon.png"
   },
-  "host_permissions": [
-    "https://drive.google.com/drive/*"
-  ],
+  "host_permissions": ["https://drive.google.com/drive/*"],
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": [
-        "https://drive.google.com/drive/*"
-      ],
-      "js": [
-        "drive.js"
-      ]
+      "matches": ["https://drive.google.com/drive/*"],
+      "js": ["drive.js"]
     }
   ]
 }
